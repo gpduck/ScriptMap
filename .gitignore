@@ -1,0 +1,7 @@
+# Don't checkin the Release output dir.
+Release/
+
+# Latest paket is downloaded by paket.bootstrapper.exe
+.paket/paket.exe
+# Ignore the packages that are managed by paket
+packages/
