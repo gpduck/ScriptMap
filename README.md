@@ -33,3 +33,13 @@ In your Module.psm1 file, you can now load everything from the `ExportedFunction
 $Loader = Get-ModuleScriptLoader $PSScriptRoot\ExportedFunctions.ps1
 . $Loader
 ```
+
+## How to build
+
+```
+git clone https://github.com/gpduck/ScriptMap.git
+cd scriptmap
+.\build.ps1
+
+import-module release\scriptmap
+```
