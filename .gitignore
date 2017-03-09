@@ -5,3 +5,6 @@ Release/
 .paket/paket.exe
 # Ignore the packages that are managed by paket
 packages/
+
+# VS Code?
+debug.log

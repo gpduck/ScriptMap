@@ -1,0 +1,6 @@
+framework: net40
+source https://www.nuget.org/api/v2
+
+nuget SourceMapToolkit
+nuget Microsoft.Net.Compilers
+nuget Microsoft.PowerShell.5.ReferenceAssemblies
